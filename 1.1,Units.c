@@ -1,5 +1,8 @@
-
-
+/*
+NAME: Joseph Ndichu
+Reg No. CT100/G/26139/25
+Description:Units taken year one semester one
+*/	
 
 #include <stdio.h>
 
