@@ -5,7 +5,6 @@ Description:Checking qualifications for a loan
 
 */
 
-
 #include <stdio.h>
 
 int main(int argc, char *argv[])
@@ -21,7 +20,6 @@ int main(int argc, char *argv[])
 	
 	printf("Enter your annual income:");
 	scanf("%d", &income);
-	
 	
 	if ( age >= 18 && income >= 21000){
 	    printf("Congratulations you qualify for a loan.");
