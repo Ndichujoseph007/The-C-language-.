@@ -1,0 +1,33 @@
+/*
+Name:Joseph Ndichu
+Reg No.CT100/G/26139/25
+Description:Checking qualifications for a loan 
+
+*/
+
+
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+	int age;
+	int income;
+	
+	
+	printf(" Are you eligible for a loan?Let's check.\n");
+	
+	printf("Enter your age:");
+	scanf("%d", &age);
+	
+	printf("Enter your annual income:");
+	scanf("%d", &income);
+	
+	
+	if ( age >= 18 && income >= 21000){
+	    printf("Congratulations you qualify for a loan.");
+	}
+	    else{
+	        printf("Unfortunately,we are unable to offer you loan at this time.");
+	    }
+	
+}
