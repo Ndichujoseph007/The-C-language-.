@@ -1,6 +1,7 @@
 /*
 NAME: Joseph Ndichu
 REG No.CT100/G/26139/25
+description: questions prompted to users.
 */
 
 
