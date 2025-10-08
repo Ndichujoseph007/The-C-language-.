@@ -5,17 +5,20 @@ Description>password system using Do while loop
 */
 
 #include <stdio.h>
-#include <string.h>
 
 int main(int argc, char *argv[])
 {
 	//use a character array to store password
-	char password[50];
+	int password;
+	int i = 0;
+	
+
 	
 	do {
 	    printf("Enter the password:");
-	    scanf("%s", password);
-	    } while (strcmp(password, "1234")!= 0);
+	    scanf("%d", &password);
+		i++;
+	    } while ((password, ++i) &&(password ! = 1234));
 	    printf("Access Granted.\n");
 	    
 	    
