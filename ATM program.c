@@ -15,21 +15,18 @@ int main(int argc, char *argv[])
    printf("Please enter your cutrent account balance:");
    scanf("%f", &balance);
    
-   //continue with withdrawal if balance is more than 0
-   
    while(balance > 0){
        printf("Enter amount to withdraw:");
        scanf("%f", &withdrawal);
+
+    while(balance < withdrawal){
+       printf("Amount too high!Try again:");
+       scanf("%f", &withdrawal); 
+    }
+       balance -= witdrawal;
+       printf("Succesful Withdrawal of:Ksh%.2f\n", Withdrawal);
+       printf("New account balance:Ksh%.2f\n", balance);
        
-       if(balance < withdrawal){
-           printf("Insufficient balance please try a lower amount.");
-       }else{
-           balance -= withdrawal;
-          
-           printf(" Confirmed a succesful withdrawal of Ksh%.2f.\n", withdrawal);
-           printf("New account balance:Ksh%.2f\n", balance);
-       }
    }
    printf("Account balance is zero or negative.Withdrawal not possible.\n");
-   
 }
